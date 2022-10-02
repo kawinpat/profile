@@ -7,14 +7,14 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/profile',
-    name: 'profile',
+    path: '/information',
+    name: 'information',
     component: Profile
   }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 })
