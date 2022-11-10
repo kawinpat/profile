@@ -31,7 +31,7 @@ ssh-key -t ed25519 -C [your github email]
 
 Then bring your generate SSH Key to set in the menu SSH and GPG keys on your github account setting.
 
-Or use this link -> https://github.com/settings/keys
+Or use this URL -> https://github.com/settings/keys
 ```
 
 ### Add "deploy": "sh deploy.sh" in script in your package.json. *****
