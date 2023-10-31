@@ -293,7 +293,7 @@
                     rounded
                     dark
                   >
-                    Get look
+                    OPEN
                   </v-btn>
                 </v-card-actions>
               </div> -->
@@ -302,11 +302,46 @@
 
           <!-- EXPERIENCE -->
           <v-row class="px-1">
-            <v-col cols="12" md="8" sm="6" class="pa-0 mt-5">
+            <v-col cols="12" md="8" sm="6" class="pa-0 mt-6">
               <v-card-title class="headCard">
-                <h2 class="lsHeadtxt txtDel">EXPERIENCE</h2>
+                <h2 class="lsHeadtxt txtDel">WORK EXPERIENCE</h2>
               </v-card-title>
-              <v-card-text class="mt-4 px-4">
+
+              <v-card-title class="mt-4 headCard">
+                <h3 class="lsHeadtxt txtExp">
+                  Rudy technology | Backend Developer
+                </h3>
+              </v-card-title>
+              <v-card-text class="mt-0 px-4 txtProfile"
+                >APR 2021 - present | 2 years, 6 months</v-card-text
+              >
+              <v-card-text class="mt-0 px-4">
+                <v-list-item
+                  v-for="(val, index) in rudyExperiece"
+                  :key="index"
+                  class="px-0"
+                >
+                  <v-list-item-icon class="mr-0 ml-0">
+                    <v-icon size="15" color="black">
+                      fiber_manual_record
+                    </v-icon>
+                  </v-list-item-icon>
+
+                  <p class="txtProfile">
+                    {{ val.title }}
+                  </p>
+                </v-list-item>
+              </v-card-text>
+
+              <v-card-title class="mt-4 headCard">
+                <h3 class="lsHeadtxt txtExp">
+                  S.L.A.K Public Co.,Ltd. | Web Developer (Trainee)
+                </h3>
+              </v-card-title>
+              <v-card-text class="mt-0 px-4 txtProfile"
+                >Jul 2020 - Mar 2021 | 9 Month</v-card-text
+              >
+              <v-card-text class="mt-0 px-4">
                 <v-list-item
                   v-for="(val, index) in experiece"
                   :key="index"
@@ -324,13 +359,8 @@
                 </v-list-item>
               </v-card-text>
             </v-col>
-            <v-col
-              cols="12"
-              md="4"
-              sm="6"
-              class="px-0 py-7 rightCol align-start"
-            >
-            <div style="width: 100%">
+            <v-col cols="12" md="4" sm="6" class="px-0 py-7 rightCol align-end">
+              <div style="width: 100%">
                 <v-card-title class="headCard d-flex justify-center">
                   <h2 class="lsHeadtxt txtDel">PORTFOLIO</h2>
                 </v-card-title>
@@ -347,7 +377,7 @@
                     rounded
                     dark
                   >
-                    Get look
+                    OPEN
                   </v-btn>
                 </v-card-actions>
               </div>
@@ -406,14 +436,14 @@ export default {
         { title: "Website with Vue.js" },
         { title: "JavaScript" },
         { title: "RESTful API with Node.js" },
-        { title: "PHP" },
+        { title: "PHP (Laravel, Zend)" },
         { title: "RESTful API with Laravel" },
         { title: "MongoDB & MySQL" },
         { title: "HTML & CSS" },
         { title: "Bootstrap" },
         { title: "Figma" },
         { title: "Git" },
-        { title: "Onesignal" },
+        { title: "Notification by Onesignal" },
       ],
       beginner: [
         { title: "AWS | EC2" },
@@ -449,6 +479,39 @@ export default {
         },
         {
           title: "Use Onesignal to send notification for website.",
+        },
+      ],
+      rudyExperiece: [
+        {
+          title:
+            "Develop API with PHP (Laravel, Zend) connect to  MySQL for Internal website of Siam Cement Group corporations (SCG)",
+        },
+        { title: "Create and Manage a Trigger or Stored Procedures in MySQL" },
+        { title: "Develop API with Node.js. connect to MongoDB and MySQL" },
+        {
+          title: "Use Node.js to create a Messaging API in Line App.",
+        },
+        {
+          title: "Create a Flex Message and send by Messaging API in Line App.",
+        },
+        {
+          title: "Created data for frontend",
+        },
+        {
+          title: "Created data for chart overview",
+        },
+        {
+          title: "Create a PDF with Laravel",
+        },
+        {
+          title: "Created notification when matching data by Onesignal.",
+        },
+        {
+          title:
+            "Develop API accordingly of the customer requirements and as assigned.",
+        },
+        {
+          title: "Help teammate for solved the problem.",
         },
       ],
     };
@@ -513,6 +576,9 @@ export default {
   .txtDel {
     font-size: 25px;
   }
+  .txtExp {
+    font-size: 18px;
+  }
   .txtCon {
     font-size: 18px;
   }
@@ -527,6 +593,9 @@ export default {
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .txtDel {
     font-size: 25px;
+  }
+  .txtExp {
+    font-size: 18px;
   }
   .txtCon {
     font-size: 18px;
@@ -558,6 +627,9 @@ export default {
   }
   .txtDel {
     font-size: 25px;
+  }
+  .txtExp {
+    font-size: 18px;
   }
   .txtCon {
     font-size: 20px;
