@@ -308,12 +308,12 @@
               </v-card-title>
 
               <v-card-title class="mt-4 headCard">
-                <h3 class="lsHeadtxt txtExp">
+                <h4 class="lsHeadtxt txtExp">
                   Rudy technology | Backend Developer
-                </h3>
+                </h4>
               </v-card-title>
               <v-card-text class="mt-0 px-4 txtProfile"
-                >APR 2021 - present | 2 years, 6 months</v-card-text
+                >Apr 2021 - present | 2 Years, 6 Months</v-card-text
               >
               <v-card-text class="mt-0 px-4">
                 <v-list-item
@@ -334,12 +334,12 @@
               </v-card-text>
 
               <v-card-title class="mt-4 headCard">
-                <h3 class="lsHeadtxt txtExp">
-                  S.L.A.K Public Co.,Ltd. | Web Developer (Trainee)
-                </h3>
+                <h4 class="lsHeadtxt txtExp">
+                  S.L.A.K Public Co.,Ltd. | Web Developer
+                </h4>
               </v-card-title>
               <v-card-text class="mt-0 px-4 txtProfile"
-                >Jul 2020 - Mar 2021 | 9 Month</v-card-text
+                >Jul 2020 - Mar 2021 | 9 Months</v-card-text
               >
               <v-card-text class="mt-0 px-4">
                 <v-list-item
@@ -577,7 +577,7 @@ export default {
     font-size: 25px;
   }
   .txtExp {
-    font-size: 18px;
+    font-size: 16px;
   }
   .txtCon {
     font-size: 18px;
@@ -595,7 +595,7 @@ export default {
     font-size: 25px;
   }
   .txtExp {
-    font-size: 18px;
+    font-size: 16px;
   }
   .txtCon {
     font-size: 18px;
@@ -629,7 +629,7 @@ export default {
     font-size: 25px;
   }
   .txtExp {
-    font-size: 18px;
+    font-size: 16px;
   }
   .txtCon {
     font-size: 20px;
